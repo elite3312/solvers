@@ -50,3 +50,37 @@ move 0 to left
 move 0 to left
 move 0 to up
 ```
+
+# othello
+## Usage
+```bash
+g++ -o minimax_with_alpha_beta_p4 minimax_with_alpha_beta_p4.cpp
+./minimax_with_alpha_beta_p4
+
+6
+OO++++XOOXXX+XOXX++OXXOO+XXOX++XXXX+
+2
+4
+OO++++XOOXXX+XOXX++OXXOO+XXOX++XXXX+
+2
+6
+OO++++XOOXXX+XOXX++OXXOO+XXOX++XXXX+
+2
+8
+++++XOX+X+X+OOOOX+XOOOXOXOOOOXXO++++
+1
+4
+++++XOX+X+X+OOOOX+XOOOXOXOOOOXXO++++
+1
+6
+++++XOX+X+X+OOOOX+XOOOXOXOOOOXXO++++
+1
+8
+```
+
+```sh
+g++ -o othello_multiple_heuristics othello_multiple_heuristics.cpp
+./othello_multiple_heuristics
++++O+++++OO++++XO+++++++++++++++++++
+2
+```
