@@ -53,7 +53,18 @@ move 0 to up
 
 # othello
 ## Usage
+
+
+```sh
+g++ -o othello_multiple_heuristics othello_multiple_heuristics.cpp
+./othello_multiple_heuristics
++++O+++++OO++++XO+++++++++++++++++++
+2
+```
+
+
 ```bash
+#old
 g++ -o minimax_with_alpha_beta_p4 minimax_with_alpha_beta_p4.cpp
 ./minimax_with_alpha_beta_p4
 
@@ -76,11 +87,4 @@ OO++++XOOXXX+XOXX++OXXOO+XXOX++XXXX+
 ++++XOX+X+X+OOOOX+XOOOXOXOOOOXXO++++
 1
 8
-```
-
-```sh
-g++ -o othello_multiple_heuristics othello_multiple_heuristics.cpp
-./othello_multiple_heuristics
-+++O+++++OO++++XO+++++++++++++++++++
-2
 ```
